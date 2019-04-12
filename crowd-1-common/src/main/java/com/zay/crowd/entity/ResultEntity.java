@@ -23,6 +23,7 @@ public class ResultEntity <T> {
     }
 
     public static <T> ResultEntity<T> successWithData(T t){
+        System.out.println("1111");
         return new ResultEntity(SUCCESS,NO_MSG,t);
     }
 
